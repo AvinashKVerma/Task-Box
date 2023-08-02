@@ -1,0 +1,24 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/taskbox-ui/node_modules
+/tasks-fs/node_modules
+/taskbox-ui/.pnp
+/taskbox-ui/.pnp.js
+
+# testing
+/taskbox-ui//coverage
+
+# production
+/taskbox-ui//build
+
+# misc
+/taskbox-ui/.DS_Store
+/taskbox-ui/.env.local
+/taskbox-ui/.env.development.local
+/taskbox-ui/.env.test.local
+/taskbox-ui/.env.production.local
+
+/taskbox-ui/npm-debug.log*
+/taskbox-ui/yarn-debug.log*
+/taskbox-ui/yarn-error.log*
